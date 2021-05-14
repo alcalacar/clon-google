@@ -56,20 +56,24 @@ main {
   justify-content: center;
   align-items: center;
 }
+form{
+  width: 100%;
+}
 .search-logo {
   display: flex;
   width: 100vw;
   justify-content: center;
 }
 .search-logo img {
-  width: 40vw;
+  width: 45%;
 }
-.search-form {
+.search-form {  
+  width: 95%;
   display: flex;
   border: 0.15rem rgb(199, 200, 201) solid;
   border-radius: 3rem;
-  padding: 0.5rem 2rem;
-  margin: 3rem 0;
+  padding: 0 2rem;
+  margin: 3rem auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -84,7 +88,7 @@ main {
   height: 2.5rem;
 }
 .search-form input {
-  width: 30vw;
+  width: 100%;
   border: none;
   margin: 0 2rem;
   height: 4.5rem;
@@ -144,4 +148,7 @@ footer section ul{
 }
 footer li{
     padding: 1.5rem;
+}
+.footer-info ul li:last-child{
+  display:none;
 }
