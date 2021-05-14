@@ -56,7 +56,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-form{
+form {
   width: 100%;
 }
 .search-logo {
@@ -67,7 +67,7 @@ form{
 .search-logo img {
   width: 45%;
 }
-.search-form {  
+.search-form {
   width: 95%;
   display: flex;
   border: 0.15rem rgb(199, 200, 201) solid;
@@ -134,37 +134,38 @@ footer {
   font-size: 1.4rem;
 }
 
-footer ul{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 2rem;
+footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 2rem;
 }
-footer li{
+footer li {
   padding: 1.5rem;
 }
-.footer-country{
+.footer-country {
   width: 100%;
   height: 10%;
-  border-bottom: 0.01rem rgb(199, 200, 201) solid ;
+  border-bottom: 0.01rem rgb(199, 200, 201) solid;
   display: flex;
   justify-content: flex-start;
 }
-.footer-country ul{
+.footer-country ul {
   margin-left: 0;
 }
-.footer-info{
+.footer-info {
   order: 1;
 }
-.footer-info, .footer-settings{
+.footer-info,
+.footer-settings {
   flex-direction: row-reverse;
 }
-.footer-info ul li:first-child{
-  order:1;
+.footer-info ul li:first-child {
+  order: 1;
 }
-.footer-info ul li:last-child{
-  display:none;
+.footer-info ul li:last-child {
+  display: none;
 }
-.footer-settings ul li:last-child{
-order:-1;
+.footer-settings ul li:last-child {
+  order: -1;
 }
