@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  margin-left: 1rem;
+}
+.navbar ul li {
+  display: flex;
+  margin: 1.5rem;
+  align-items: center;
+}
+.img-menu {
+  height: 2rem;
+}
+.user {
+  border-radius: 50%;
+}
+main {
+  align-self: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search-logo {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.search-logo img {
+  width: 50rem;
+}
+.search-form {
+  display: flex;
+  border: 0.15rem rgb(199, 200, 201) solid;
+  border-radius: 3rem;
+  padding: 0.5rem 2rem;
+  margin: 3rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-form:hover,
+.search-form:focus-within {
+  box-shadow: 0px 2px 20px -7px rgba(0, 0, 0, 0.75);
+}
+.search-icon-left {
+  height: 1.8rem;
+}
+.search-icon-right {
+  height: 2.5rem;
+}
+.search-form input {
+  width: 30vw;
+  border: none;
+  margin: 0 2rem;
+  height: 4.5rem;
+  font-size: 1.6rem;
+  color: rgb(23, 24, 24);
+}
+.search-form input:focus {
+  outline: none;
+}
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+.search-buttons button {
+  border: none;
+  /* font-size: 1.6rem; */
+  color: rgb(23, 24, 24);
+  border: 0.01rem rgb(246, 247, 248) solid;
+  background: rgb(246, 247, 248);
+  padding: 1.2rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.search-buttons button:hover {
+  border: 0.01rem rgb(199, 200, 201) solid;
+}
+.search-footer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.search-footer a {
+  color: rgb(4, 4, 173);
+  margin: 0 0.5rem;
+}
+footer {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+.footer-country{
+    width: 100%;
+    height: 10%;
+    border-bottom: 0.01rem rgb(199, 200, 201) solid ;
+}
+footer section ul{
+    display: flex;
+    margin: 0 2rem;
+}
+footer li{
+    padding: 1.5rem;
+}

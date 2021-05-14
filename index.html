@@ -10,64 +10,86 @@
       href="https://i.imgur.com/WMRsgxi.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <ul>
-          <li>Gmail</li>
-          <li>Im&aacute;genes</li>
-        </ul>
-        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Im&aacute;genes</a></li>
           <li>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/f/fe/3x3dot-black.svg"
-              alt=""
-            />
+            <a href="#">
+              <img
+                class="img-menu"
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fe/3x3dot-black.svg"
+                alt=""
+              />
+            </a>
           </li>
           <li>
-            <img
-              src="https://lh3.googleusercontent.com/ogw/ADGmqu-ze0H1NmnOjF6DJSYl-7NkvgG-MT0cdLkZmRLUInY=s32-c-mo"
-              alt=""
-            />
+            <a href="#">
+              <img
+                class="user"
+                src="https://lh3.googleusercontent.com/ogw/ADGmqu-ze0H1NmnOjF6DJSYl-7NkvgG-MT0cdLkZmRLUInY=s32-c-mo"
+                alt=""
+              />
+            </a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <figure>
+      <figure class="search-logo">
         <img src="https://i.imgur.com/51lzcGp.png" alt="" />
       </figure>
       <form action="#">
         <div class="search-form">
-          <img src="https://i.imgur.com/QQURitQ.png" alt="" />
+          <img
+            class="search-icon-left"
+            src="https://i.imgur.com/QQURitQ.png"
+            alt=""
+          />
           <input type="text" />
-          <img src="https://i.imgur.com/vgYZq58.png" alt="" />
+          <img
+            class="search-icon-right"
+            src="https://i.imgur.com/vgYZq58.png"
+            alt=""
+          />
         </div>
-        <button>Buscar con Google</button>
-        <button>Me siento con suerte</button>
-        <p>
-          Ofrecido por Google en :
-          <a href="#">English</a>
-          <a href="#">Quechua</a>
-        </p>
+        <div class="search-buttons">
+            <button>Buscar con Google</button>
+            <button>Me siento con suerte</button>
+        </div>
+        <div class="search-footer">          
+          <p>
+            Ofrecido por Google en:
+            <a href="#">English</a>
+            <a href="#">Quechua</a>
+          </p>
+        </div>
       </form>
     </main>
     <footer>
-      <section class="footer-country"></section>
+      <section class="footer-country">
+          <ul>
+              <li>Desde Per&uacute; con mucho &#128149;</li>
+              <li><a href="https://github.com/alcarcis">@alcalacar</a></li>
+          </ul>
+      </section>
       <section class="footer-info">
         <ul>
-          <li>Sobre Google</li>
-          <li>Publicidad</li>
-          <li>Negocios</li>
-          <li>C&oacute;mo funciona la B&uacute;squeda</li>
+          <li><a href="#">Sobre Google</a></li>
+          <li><a href="#">Publicidad</a></li>
+          <li><a href="#">Negocios</a></li>
+          <li><a href="#">C&oacute;mo funciona la B&uacute;squeda</a></li>
         </ul>
       </section>
       <section class="footer-settings">
         <ul>
-          <li>Privacidad</li>
-          <li>Condiciones</li>
-          <li>Preferencias</li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Condiciones</a></li>
+          <li><a href="#">Preferencias</a></li>
         </ul>
       </section>
     </footer>
