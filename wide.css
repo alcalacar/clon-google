@@ -11,6 +11,18 @@
     justify-content: space-between;
     align-items: center;
   }
+  footer {
+    justify-content: space-between;
+  }
   .footer-info ul li:last-child{
     display:initial;
+  }
+  .footer-info{
+    order:unset;
+  }
+  footer ul{
+    flex-direction: row;
+  }
+  .footer-country ul{
+    margin-left: 2rem;
   }

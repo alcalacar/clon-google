@@ -130,25 +130,41 @@ footer {
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(243, 243, 243);
-  justify-content: space-between;
+  justify-content: center;
   font-size: 1.4rem;
 }
-.footer-country{
-    width: 100%;
-    height: 10%;
-    border-bottom: 0.01rem rgb(199, 200, 201) solid ;
-    display: flex;
-    justify-content: flex-start;
-}
-footer section ul{
+
+footer ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 2rem;
 }
 footer li{
-    padding: 1.5rem;
+  padding: 1.5rem;
+}
+.footer-country{
+  width: 100%;
+  height: 10%;
+  border-bottom: 0.01rem rgb(199, 200, 201) solid ;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-country ul{
+  margin-left: 0;
+}
+.footer-info{
+  order: 1;
+}
+.footer-info, .footer-settings{
+  flex-direction: row-reverse;
+}
+.footer-info ul li:first-child{
+  order:1;
 }
 .footer-info ul li:last-child{
   display:none;
+}
+.footer-settings ul li:last-child{
+order:-1;
 }
